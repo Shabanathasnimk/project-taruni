@@ -41,8 +41,8 @@ table {
 
 @font-face {
     font-family: 'Roboto-medium';
-    src: url('../assets/fonts/Roboto-Medium.woff') format('woff2'),
-        url('../assets/fonts/Roboto-Medium.woff2') format('woff');
+    src: url('../assets/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Roboto-Medium.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -63,7 +63,7 @@ table {
     max-width: 1200px;
 }
 section#main{
-    background-color: lightpink;}
+    background-color: rgb(242, 227, 229);}
     .wrapper {
         width: 90%;
         max-width: 1200px;
@@ -135,7 +135,6 @@ section#main{
        width: 100%;
     }
     header .top .right_navigations ul li .icon_container h3{
-    
     }
     header .bottom { 
         display: flex;
@@ -171,12 +170,12 @@ section#main{
     header .bottom .right a { 
         display: block;
         text-align: right;
-        font-size: 18px;
+        font-size: 15px;
         margin-bottom: 10px;
     }
 
     #main .spotlight { 
-
+    
     }
 
     #main .spotlight .main { 
@@ -187,17 +186,17 @@ section#main{
     }
     
     #main .spotlight .main .left { 
-        background-color: bisque;
-        width: 55%;
+        background-color: rgb(239, 219, 184);
+        width: 54%;
         padding: 10px 10px;
         text-align: center;
         color: #58595b;
-       
     }
     #main .spotlight .main .left h2 { 
         font-size: 40px;
         font-weight: 600;
         margin-top: 10px;
+        font-family: 'Roboto-medium';
     }
     #main .spotlight .main div.midle { 
         display: flex;
@@ -227,22 +226,33 @@ section#main{
 
     }
     #main .spotlight .main .for{
+        width: 169px;
+        margin: 0 auto;
+    }
+    #main .spotlight .main .borderbox{
+        border: 2px solid #58595b;
+        padding: 10px;
+        width: 230px;
+        margin: 0 auto;
+        margin-top: 20px;
 
     }
-
+    #main .spotlight .main .for h4{
+        font-size: 25px;
+    }
     #main .spotlight .main .for .left .dot p { 
         font-size: 20px;
 
     }
     
     #main .spotlight .main .left div { 
-    
+        
     }
     
-    #main .spotlight .main .left div h4 { 
+    /* #main .spotlight .main .left div h4 { 
         font-size: 25px;
 
-    }
+    } */
     
     #main .spotlight .main .left div p { 
         font-size: 20px;
@@ -263,20 +273,33 @@ section#main{
         background-color: #fff;
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        padding: 30px;
     }
     
     #main .spotlight .box h3 { 
         font-size: 24px;
         width: 172px;
+        margin-right: 50px; 
+        color: #58595b;
     }
     
     #main .spotlight .box .smal { 
-        border-bottom: 1px solid;
+        border-right: 1px solid #58595b;
+        line-height: 35px;
+        /* margin-left: 10px; */
     }
     
     #main .spotlight .box .smal p { 
-    
+        color: #58595b;
+
+    }
+      
+    #main .spotlight .box .smal hr { 
+        border-bottom: 1px solid #58595b;
+    }
+    #main .spotlight .box .smal span { 
+        color: #58595b;
+
     }
     
     #main .spotlight .box .big { 
@@ -286,3 +309,512 @@ section#main{
     #main .spotlight .box .big h3 { 
     
     }
+
+
+
+#main .maincontent { 
+
+}
+
+#main .maincontent .Arrivals { 
+    padding: 65px 352px;
+}
+
+
+#main .maincontent .Arrivals h3 { 
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+#main .maincontent .Arrivals ul { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#main .maincontent .Arrivals ul li { 
+    width: 23%;
+}
+
+#main .maincontent .Arrivals ul li a { 
+
+}
+
+#main .maincontent .Arrivals ul li a img { 
+    width: 100%;
+    display: block;
+}
+
+#main .maincontent .Arrivals ul li .siut { 
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 2px solid #58595b;
+    line-height: 25px;
+
+}
+#main .maincontent .Arrivals ul li .anarkali { 
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 2px solid #58595b;
+     line-height: 25px;
+
+
+}
+#main .maincontent .Arrivals ul li .straight { 
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 2px solid #58595b;
+    line-height: 25px;
+
+}
+#main .maincontent .Arrivals ul li .western { 
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 2px solid #58595b;
+    line-height: 25px;
+
+}
+#main .maincontent .Arrivals ul li .siut h4 { 
+
+}
+
+#main .maincontent .Arrivals ul li .siut span { 
+    font-size: 12px;
+}
+#main .maincontent .Arrivals ul li .anarkali span { 
+    font-size: 12px;
+}
+#main .maincontent .Arrivals ul li .straight span { 
+    font-size: 12px;
+}
+#main .maincontent .Arrivals ul li .western span { 
+    font-size: 12px;
+}
+#main .maincontent .Arrivals ul li p { 
+    font-size: 14px;
+    color: #58595b;
+}
+
+
+
+
+#main .footer { 
+    padding: 65px 352px;
+    background-color: white;
+
+}
+
+#main .footer .top { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#main .footer .top .one { 
+
+}
+
+#main .footer .top .one h3 { 
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#main .footer .top .one ul { 
+    line-height: 24px;
+
+}
+
+#main .footer .top .one ul li { 
+
+}
+
+#main .footer .top .two { 
+
+}
+
+#main .footer .top .two ul { 
+    margin-top: 25px;
+    line-height: 24px;
+}
+
+#main .footer .top .two ul li { 
+
+}
+
+#main .footer .top .three { 
+
+}
+
+#main .footer .top .three h3 { 
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+#main .footer .top .three ul { 
+    line-height: 24px;
+}
+
+#main .footer .top .three ul li { 
+
+}
+
+#main .footer .top .four { 
+
+}
+
+#main .footer .top .four h3 { 
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+#main .footer .top .four ul { 
+    line-height: 24px;
+
+}
+
+#main .footer .top .four ul li { 
+
+}
+
+#main .footer .top .four ul form { 
+    margin-top: 15px;
+
+}
+
+#main .footer .top .four ul form input { 
+    border: 1px solid #58595b;
+    padding: 4px 15px;
+    border-radius: 5px 1px 0px 4px;
+    margin-right: -4px;
+}
+
+#main .footer .top .four ul form button { 
+    background-color: brown;
+    color: white;
+    padding: 5px 15px;
+    border-radius: -2px 1px 0px 4px;
+
+}
+
+#main .footer .bottom { 
+
+}
+
+#main .footer .bottom .left { 
+    margin-top: 30px;
+
+}
+
+#main .footer .bottom .left ul { 
+    display: flex;
+    gap: 5px;
+
+}
+
+#main .footer .bottom .left ul li { 
+    width: 2%;
+}
+
+#main .footer .bottom .left ul li img { 
+    width: 100%;
+    display: block;
+}
+
+#main .footer .bottom .right { 
+    margin-left: 310px;
+    margin-top: -17px;
+
+}
+
+#main .footer .bottom .right p { 
+
+}
+@media all and (max-width: 1280px){
+    #main .spotlight .main .left .side h4{
+        font-size: 23px;
+    }
+    #main .spotlight .main .left .dot h4{
+        font-size: 23px;
+
+    }
+    #main .spotlight .main .for h4{
+        font-size: 23px;
+
+    }
+    #main .spotlight .main .rightes img{
+        height: 409px;
+    }
+    #main .maincontent .Arrivals {
+        padding: 65px 55px;
+    }
+    #main .footer{
+        padding: 65px 55px;
+    }
+    #main .footer .bottom .right{
+        margin-left: 149px;
+
+    }
+    
+}
+
+@media all and (max-width: 1080px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media all and(max-width: 1280px){
+    #main .spotlight .main .left h2 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    #main .spotlight .main .left .side h4 {
+        font-size: 20px;
+    }
+    #main .spotlight .main .left .dot h4 {
+        font-size: 20px;
+    }
+    #main .spotlight .main div.midle {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 70px;
+        text-align: left;
+        margin-top: -47px;
+    }
+    #main .footer .bottom .right {
+        margin-left: 310px;
+        margin-top: -17px;
+    }
+}
+@media all and(max-width: 1080px){
+    #main .spotlight .main .left h2 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    #main .spotlight .main .left .side h4 {
+        font-size: 20px;
+    }
+    #main .spotlight .main .left .side p {
+        font-size: 15px;
+    }
+    #main .spotlight .main .left .dot h4 {
+        font-size: 20px;
+    }
+    #main .spotlight .main .left div p {
+        font-size: 15px;
+    }
+    #main .spotlight .main .for h4 {
+        font-size: 20px;
+    }
+    #main .spotlight .main .left div p {
+        font-size: 15px;
+    }
+    #main .spotlight .main .rightes {
+        width: 45%;
+        height: 409px;
+    }
+    #main .spotlight .main .rightes img {
+        width: 100%;
+        display: block;
+        height: 409px;
+    }
+    #main .spotlight .main .left {
+        background-color: rgb(239, 219, 184);
+        width: 54%;
+        padding: 0px 10px;
+        text-align: center;
+        color: #58595b;
+        margin-inline: 0px;
+    }
+    #main .spotlight .main .left h2 {
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: -71px;
+    }
+    #main .footer .bottom .left {
+        margin-top: 30px;
+    }
+}
+@media all and(max-width: 980px){
+    #main .spotlight .main .left h2 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    #main .spotlight .main div.midle {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 70px;
+        text-align: left;
+        display: none;
+    }
+    #main .spotlight .box {
+        border: 1px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    #main .spotlight .box .smal p {
+        color: #58595b;
+        font-size: 13px;
+    }
+    #main .spotlight .box .smal span {
+        color: #58595b;
+        font-size: 13px;
+    }
+    #main .maincontent .Arrivals {
+        padding: 65px 40px;
+    }
+    #main .footer {
+        padding: 62px 40px;
+        background-color: white;
+    }
+    #main .footer .top {
+        display: flex;
+        justify-content: space-between;
+        margin-right: -110px;
+    }
+    #main .footer .top .four ul form input {
+        border: 1px solid #58595b;
+        /* padding: 0px 0px; */
+        /* border-radius: 5px 1px 0px 4px;
+        margin-right: -5px; */
+    }
+    /* #main .footer .bottom .right {
+        margin-left: 275px;
+        margin-top: -17px;
+    }
+}
+@media all and(max-width: 768){
+    header .bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        display: none;
+    }
+    #main .spotlight .main div.midle {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 70px;
+        text-align: left;
+        display: none;
+    }
+} */ */
