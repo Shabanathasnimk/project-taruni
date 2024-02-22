@@ -500,7 +500,7 @@ section#main{
     background-color: brown;
     color: white;
     padding: 5px 15px;
-    border-radius: -2px 1px 0px 4px;
+    border-radius: 0px 5px 5px 0px;
 
 }
 
@@ -566,16 +566,302 @@ section#main{
 }
 
 @media all and (max-width: 1080px){
+    #main .spotlight .main .left h2{
+        font-size: 35px;
+
+    }
+    #main .spotlight .main .left .side h4{
+        font-size: 20px;
+
+    }
+    #main .spotlight .main .left .dot h4 {
+        font-size: 20px;
+
+    }
+    #main .spotlight .main .for h4 {
+        font-size: 20px;
+    }
+    #main .footer .bottom .right {
+        margin-left: 130px;
+
+    }
 
 }
 
+@media all and (max-width: 980px){
+    header .top .header h1{
+        width: 30%;
 
+    }
+    header .top .right_navigations ul li{
+        margin-left: 10px;
 
+    }
+    header .bottom{
+        display: none;
+    }
+    header {
+        padding: 40px;
+    }
+    header .top .right_navigations ul li .icon_container h3{
+        font-size: 13px;
+    }
+    #main .spotlight .main .left h2{
+        font-size: 30px;
+    }
+    #main .spotlight .main .left .side h4 {
+        /* font-size: 20px; */
+        font-weight: 600;
+    }
+    #main .spotlight .main .left .side p {
+        font-size: 18px;
+    }
+    #main .spotlight .main .left .dot h4{
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    #main .spotlight .main .left div p{
+        font-size: 18px;
 
+    }
+    #main .spotlight .main .for h4{
+        font-weight: 600;
+    }
+    #main .spotlight .box{
+        padding: 15px;
+    }
+    #main .spotlight .box h3{
+        margin-right: 30px;
 
+    }
+    #main .footer .top .one {
+        width: 25%;
+    }
+    #main .footer .top .two {
+        width: 25%;
+    }
+    #main .footer .top .three {
+        width: 30%;
+    }
+    #main .footer .bottom .left ul li {
+        width: 3%;
+    }
+    #main .footer .bottom .right p {
+        margin-left: 200px;
+    }
+}
 
+@media all and (max-width: 768px){
+    header .top .header {
+        margin-bottom: 20px;
+    }
+    #main .spotlight .main .left h2 {
+        font-size: 25px;
+    }
+    #main .spotlight .main .left .side h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #main .spotlight .main .left .dot h4 {
+        font-size: 20px;
+        width: 111%;
+    }
+    #main .spotlight .main .left .side{
+        margin-left: -19px;
 
+    }
+    #main .spotlight .main .left .dot {
+        margin-right: -70px;
+    }
+    #main .spotlight .main div.midle {
+        padding: 15px 70px;
+    }
+    #main .spotlight .main .left{
+        margin-bottom: 100px;
 
+    }
+    #main .spotlight .main .borderbox{
+        margin-top: 10px;
+    }
+    #main .spotlight .main .rightes img {
+        height: 305px;
+    }
+    #main .spotlight .box .smal{
+        line-height: 20px;
+    }
+    #main .footer .bottom .left {
+        margin-top: 50px;
+    }
+    #main .footer .bottom .left ul li {
+        width: 4%;
+    }
+    #main .footer .bottom .right {
+        margin-left: 35px;
+    }
+}
+
+@media all and (max-width: 640px){
+    #main .spotlight .main .left h2 {
+        font-size: 19px;
+    }
+    #main .spotlight .main .left .side h4{
+        font-size: 10px;
+    }
+    #main .spotlight .main div.midle {
+        padding: 0px 35px;
+        margin-top: 10px;
+    }
+    #main .spotlight .main .left .side p {
+        font-size: 14px;
+    }
+    #main .spotlight .main .left .dot h4 {
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    #main .spotlight .main .left .dot {
+        margin-right: -45px;
+    }
+    #main .spotlight .main .left div p {
+        font-size: 13px;
+
+    }
+    #main .spotlight .main .for h4{
+        font-size: 14px;
+
+    }
+    #main .spotlight .main .borderbox{
+        width: 195px;
+    }
+    #main .spotlight .main .rightes img {
+        height: 211px;
+    }
+    #main .spotlight .box h3 {
+        margin-right: 30px;
+        font-size: 25px;
+    }
+    #main .spotlight .box {
+        padding: 25px;
+        display: block;
+    }
+    #main .spotlight .main{
+        margin-bottom: -50px;
+    }
+    #main .spotlight .box .smal {
+        line-height: 30px;
+    }
+    #main .spotlight .box .smal p {
+        font-size: 18px;  
+    }
+    #main .spotlight .box .smal span {
+        font-size: 18px;  
+    }
+    #main .maincontent .Arrivals {
+        padding: 65px 25px;
+    }
+    #main .maincontent .Arrivals ul li .siut{
+        display: block;
+        line-height: 15px;
+    }
+    #main .maincontent .Arrivals ul li p {
+        font-size: 15px;
+    }
+    #main .maincontent .Arrivals ul li .siut span {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    #main .maincontent .Arrivals ul li .anarkali span {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    #main .maincontent .Arrivals ul li .anarkali{
+        display: block;
+        line-height: 15px;
+
+    }
+    #main .maincontent .Arrivals ul li .straight{
+        display: block;
+        line-height: 15px;
+    }
+    #main .maincontent .Arrivals ul li .straight span{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    #main .maincontent .Arrivals ul li .western{
+        display: block;
+        line-height: 15px;
+    }
+    #main .maincontent .Arrivals ul li .western span {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    #main .footer .top{
+        display: block;
+    }
+    #main .footer .bottom .left ul li {
+        width: 7%;
+    }
+    #main .footer .bottom .right p{
+        margin-left: 0;
+    }
+    #main .footer .bottom .left {
+        margin-bottom: 50px;
+    }
+}
+@media all and (max-width: 480px){
+    #main .spotlight .main .rightes img {
+        display: none;
+    }
+    #main .spotlight .main .left{
+    width: 70%;
+    padding: 40px 55px;
+    }
+    #main .spotlight .main .left h2 {
+        font-size: 30px;
+        margin-bottom: 30px;    }
+    #main .spotlight .main div.midle {
+        padding: 0px 10px;
+        margin-bottom: 40px;
+    }
+    #main .spotlight .box h3 {
+        font-size: 30px;
+    }
+    #main .spotlight .box .smal p {
+        font-size: 17px;
+    }
+    #main .spotlight .box h3 {
+        font-size: 25px;
+    }
+    #main .spotlight .box .smal {
+        line-height: 50px;
+    }
+    #main .maincontent .Arrivals ul {
+        display: block;
+    }
+    #main .maincontent .Arrivals ul li {
+        width: 100%;
+    }
+    #main .maincontent .Arrivals ul li .siut {
+        display: flex;
+    }
+    #main .maincontent .Arrivals ul li .anarkali {
+        display: flex;
+    }
+    #main .maincontent .Arrivals ul li .straight {
+        display: flex;
+    }
+    #main .maincontent .Arrivals ul li .western {
+        display: flex;
+    }
+    #main .footer .bottom .right {
+        margin-left: 15px;
+    }
+    #main .footer .top .four ul form input{
+        width: 125px;
+    }
+}
+@media all and(max-width: 360px){
+    
+}
 
 
 
