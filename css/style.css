@@ -113,6 +113,7 @@ section#main{
     header .top .right_navigations ul li a { 
         width: 15px;
         display: block;
+        
     }
     
     header .top .right_navigations ul li a img { 
@@ -158,6 +159,7 @@ section#main{
     header .bottom .left ul li a { 
         color: #58595b;
         font-family: 'Roboto-bold';
+        text-decoration: none;
     }
     
     header .bottom .right { 
@@ -215,16 +217,16 @@ section#main{
     }
     
     #main .spotlight .main .left .dot { 
-    
+        margin-right: 10px;
     }
     
     #main .spotlight .main .left .dot h4 { 
         font-size: 25px;
 
     }
-    #main .spotlight .main .for{
-        width: 169px;
-        margin: 0 auto;
+    #main .spotlight .main .left .side p {
+        font-size: 20px;
+        
     }
     #main .spotlight .main .borderbox{
         border: 2px solid #58595b;
@@ -274,21 +276,22 @@ section#main{
     }
     
     #main .spotlight .box h3 { 
-        font-size: 24px;
-        width: 172px;
+        font-size: 30px;
         margin-right: 50px; 
-        color: #58595b;
+        color: #646976;
     }
     
     #main .spotlight .box .smal { 
-        border-right: 1px solid #58595b;
+        border-right: 2px solid #a7abb3;
         line-height: 35px;
+        padding-right: 15px;
         /* margin-left: 10px; */
     }
     
     #main .spotlight .box .smal p { 
         color: #58595b;
-
+        font-size: 18px;
+        font-weight: 500;
     }
       
     #main .spotlight .box .smal hr { 
@@ -296,11 +299,12 @@ section#main{
     }
     #main .spotlight .box .smal span { 
         color: #58595b;
+        font-size: 18px;
 
     }
     
-    #main .spotlight .box .big { 
-    
+    #main .spotlight .box .big {
+        margin-left: 20px;
     }
     
     #main .spotlight .box .big h3 { 
@@ -408,6 +412,8 @@ section#main{
 #main .footer .top { 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 #main .footer .top .one { 
@@ -418,6 +424,8 @@ section#main{
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #585d68;
+
 }
 
 #main .footer .top .one ul { 
@@ -426,6 +434,7 @@ section#main{
 }
 
 #main .footer .top .one ul li { 
+    color: #9599a1;
 
 }
 
@@ -439,7 +448,7 @@ section#main{
 }
 
 #main .footer .top .two ul li { 
-
+    color: #9599a1;
 }
 
 #main .footer .top .three { 
@@ -450,6 +459,7 @@ section#main{
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #585d68;
 
 }
 
@@ -458,6 +468,7 @@ section#main{
 }
 
 #main .footer .top .three ul li { 
+    color: #9599a1;
 
 }
 
@@ -469,6 +480,7 @@ section#main{
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #585d68;
 
 }
 
@@ -478,46 +490,55 @@ section#main{
 }
 
 #main .footer .top .four ul li { 
+    color: #9599a1;
 
 }
+#main .footer .top .btn{
+    display: flex;
+    align-items: baseline;
 
-#main .footer .top .four ul form { 
+}
+#main .footer .top .btn form { 
     margin-top: 15px;
+    width: 53%;
 
 }
 
-#main .footer .top .four ul form input { 
+#main .footer .top .btn form input { 
     border: 1px solid #58595b;
-    padding: 4px 15px;
+    padding: 10px 15px;
     border-radius: 5px 1px 0px 4px;
-    margin-right: -4px;
+    
 }
 
-#main .footer .top .four ul form button { 
+#main .footer .top .btn button { 
     background-color: brown;
     color: white;
-    padding: 6px 5px 4px 4px;
+    padding: 6px 5px 6px 4px;
     border-radius: 0px 5px 5px 0px;
-
+    height: 40px;
 }
 
 #main .footer .bottom { 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
 
 }
 
 #main .footer .bottom .left { 
-    margin-top: 30px;
-
+    width: 20%;
 }
 
 #main .footer .bottom .left ul { 
     display: flex;
-    gap: 5px;
-
+    width: 100%;
+    justify-content: space-between;
 }
 
 #main .footer .bottom .left ul li { 
-    width: 2%;
+    width: 15%;
 }
 
 #main .footer .bottom .left ul li img { 
@@ -525,15 +546,34 @@ section#main{
     display: block;
 }
 
-#main .footer .bottom .right { 
-    margin-left: 310px;
-    margin-top: -17px;
-
+#main .footer .bottom .right {
+    margin-left: 50px;
 }
 
-#main .footer .bottom .right p { 
+#main .footer .bottom .right ul { 
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
 
 }
+#main .footer .bottom .right ul li {
+    border-left: 1px solid #58595b;
+    padding-left: 4px;
+    font-size: 14px;
+}
+#main .footer .bottom .right ul li:first-child{
+    border-left: 0px solid #58595b;
+}
+
+/* #main .footer .bottom .right ul li a{
+    color: #9599a1;
+    text-decoration: none;
+    padding-left: 7px;
+
+} */
+
+
+
 @media all and (max-width: 1280px){
     #main .spotlight .main .left .side h4{
         font-size: 23px;
@@ -545,6 +585,9 @@ section#main{
     #main .spotlight .main .for h4{
         font-size: 23px;
 
+    }
+    #main .spotlight .box .smal{
+        width: 50%;
     }
     #main .spotlight .main .rightes img{
         height: 409px;
@@ -560,6 +603,15 @@ section#main{
 
     }
     
+    #main .footer .bottom .right ul li a{
+        margin: 0px 10px;
+    }
+    #main .footer .bottom .right ul li:first-child {
+        margin-left: 0px;
+    }
+    #main .footer .bottom .right {
+        margin-left: 70px;
+    }
 }
 
 @media all and (max-width: 1080px){
@@ -578,9 +630,30 @@ section#main{
     #main .spotlight .main .for h4 {
         font-size: 20px;
     }
+    #main .spotlight .box .smal p {
+        font-size: 17px;
+        width: 84%;
+    }
+    #main .spotlight .box .smal span {
+        font-size: 17px;
+    }
+    #main .spotlight .box .smal{
+        line-height: 25px;
+
+    }
+    #main .spotlight .box .smal {
+        width: 37%;
+    }
+    
     #main .footer .bottom .right {
         margin-left: 130px;
 
+    }
+    #main .spotlight .box .big {
+        /* margin-left: 100px; */
+    }
+    #main .spotlight .box h3{
+        margin-right: 10px;
     }
 
 }
@@ -641,10 +714,32 @@ section#main{
         width: 30%;
     }
     #main .footer .bottom .left ul li {
-        width: 3%;
-    }
+        width: 30%;    }
     #main .footer .bottom .right p {
         margin-left: 200px;
+    }
+    #main .spotlight .main div.midle{
+        padding: 20px 70px;
+
+    }
+    #main .spotlight .main .rightes img {
+        height: 320px;
+    }
+    #main .spotlight .box {
+        padding: 15px 15px;
+    }
+    #main .spotlight .box h3{
+        font-size: 25px;
+    }
+    #main .spotlight .box .smal p {
+        font-size: 15px;
+        width: 164px;
+    }
+    #main .spotlight .box .smal span {
+        font-size: 15px;
+    }
+    #main .footer .bottom .left {
+        width: 35%;
     }
 }
 
@@ -664,36 +759,51 @@ section#main{
         width: 111%;
     }
     #main .spotlight .main .left .side{
-        margin-left: -19px;
+        margin-right: 10px;
 
     }
+    #main .spotlight .main .left .side p {
+        font-size: 13px;
+        margin-top: 16px;
+    }
+    #main .spotlight .box{
+        display: flex;
+    }
     #main .spotlight .main .left .dot {
-        margin-right: -70px;
+        /* margin-right: -70px; */
     }
     #main .spotlight .main div.midle {
         padding: 15px 70px;
     }
     #main .spotlight .main .left{
-        margin-bottom: 100px;
 
+    }
+    #main .spotlight .main .left div p {
+        font-size: 11px;
     }
     #main .spotlight .main .borderbox{
         margin-top: 10px;
     }
     #main .spotlight .main .rightes img {
-        height: 305px;
+        height: 257px;
     }
-    #main .spotlight .box .smal{
+    #main .spotlight .box .smal {
         line-height: 20px;
     }
     #main .footer .bottom .left {
         margin-top: 50px;
     }
     #main .footer .bottom .left ul li {
-        width: 4%;
+        /* width: 4%; */
     }
     #main .footer .bottom .right {
         margin-left: 35px;
+    }
+    #main .spotlight .main .left {
+        margin-bottom: 15px;
+    }
+    #main .spotlight .main{
+        margin-bottom: 15px;
     }
 }
 
@@ -710,28 +820,32 @@ section#main{
     }
     #main .spotlight .main .left .side p {
         font-size: 14px;
+        margin-top: 14px;
     }
     #main .spotlight .main .left .dot h4 {
         font-size: 13px;
         margin-bottom: 0px;
     }
     #main .spotlight .main .left .dot {
-        margin-right: -45px;
+        /* margin-right: -45px; */
+    }
+    #main .spotlight .main .left {
+        margin-bottom: 50px;
     }
     #main .spotlight .main .left div p {
         font-size: 13px;
-
     }
     #main .spotlight .main .for h4{
         font-size: 14px;
-
+        
     }
     #main .spotlight .main .borderbox{
         width: 195px;
     }
     #main .spotlight .main .rightes img {
-        height: 211px;
+        height: 222px;
     }
+    
     #main .spotlight .box h3 {
         margin-right: 30px;
         font-size: 25px;
@@ -741,7 +855,7 @@ section#main{
         display: block;
     }
     #main .spotlight .main{
-        margin-bottom: -50px;
+        /* margin-bottom: -50px; */
     }
     #main .spotlight .box .smal {
         line-height: 30px;
@@ -795,13 +909,19 @@ section#main{
         display: block;
     }
     #main .footer .bottom .left ul li {
-        width: 7%;
+        /* width: 7%; */
     }
     #main .footer .bottom .right p{
         margin-left: 0;
     }
     #main .footer .bottom .left {
-        margin-bottom: 50px;
+        width: 25%;
+    }
+    #main .footer .bottom .left ul li {
+        width: 60%;
+    }
+    #main .footer .bottom .left ul{
+        display: block;
     }
 }
 @media all and (max-width: 480px){
@@ -809,8 +929,8 @@ section#main{
         display: none;
     }
     #main .spotlight .main .left{
-    width: 70%;
-    padding: 40px 55px;
+        width: 70%;
+        padding: 40px 55px;
     }
     #main .spotlight .main .left h2 {
         font-size: 30px;
@@ -855,25 +975,132 @@ section#main{
     #main .footer .top .four ul form input{
         width: 125px;
     }
+    #main .footer .top .btn form{
+        width: 63%;
+    }
+    #main .footer .bottom .left ul li {
+        width: 80%;
+    }
+    #main .maincontent .Arrivals ul li {
+        margin-bottom: 30px;
+    }
+    #main .maincontent .Arrivals ul li .siut {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #main .maincontent .Arrivals ul li .anarkali {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #main .maincontent .Arrivals ul li .straight {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #main .maincontent .Arrivals ul li .western {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #main .spotlight .box .smal p {
+        font-size: 16px;
+    }
+    #main .spotlight .box .smal span {
+        font-size: 17px;
+    }
+    #main .footer .bottom .left ul {
+        /* display: block; */
+        display: flex;
+    }
+    #main .footer .bottom{
+        display: block;
+    }
+    #main .footer .bottom .right {
+        width: 100%;
+    }
+    #main .footer .bottom .left {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    #main .footer .bottom .right ul {
+        gap: 15px;
+    }
+
+
 }
-@media all and (max-width: 480px){
+@media all and (max-width: 360px){
     #main .spotlight .main .left {
         padding: 40px 45px;
 
     }
+   
+    #main .footer .top .btn form {
+        width: 73%;
+    }
     #main .footer .top .four ul form input {
-        margin-right: -9px;
+        /* margin-right: -9px; */
     }
     #main .footer .top .four ul form button {
         padding: 6px 5px 4px 4px;
         font-size: 12px;
     }
     #main .footer .bottom .left ul {
-        gap: 7px;
+
     }
     #main .footer .bottom .left ul li {
-        width: 10%;
+        width: 80%;
     }
+    #main .maincontent .Arrivals ul li {
+        margin-bottom: 30px;
+    }
+    #main .maincontent .Arrivals ul li .siut {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #main .maincontent .Arrivals ul li .anarkali {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #main .maincontent .Arrivals ul li .straight {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #main .maincontent .Arrivals ul li .western {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #main .footer .bottom{
+        display: block;
+    }
+    #main .footer .bottom .left ul {
+        width: 100px;
+        display: block;
+        /* gap: 10px; */
+    }
+    #main .footer .bottom .right ul li a{
+        font-size: 13px;
+    }
+    #main .spotlight .box .big {
+        margin-left: 1px;
+    }
+    #main .spotlight .box .smal p {
+        font-size: 13px;
+    }
+    #main .spotlight .box .smal span {
+        font-size: 13px;
+    }
+    #main .footer .bottom .left ul li{
+        width: 35%;
+    }
+    #main .footer .bottom{
+        flex-wrap: wrap;
+
+    }
+    #main .footer .bottom .left ul li {
+        width: 25%;
+    }
+    #main .footer .bottom .left ul {
+        display: flex;
+    }
+
 }
 
 
